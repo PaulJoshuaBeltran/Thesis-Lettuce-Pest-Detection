@@ -1,0 +1,448 @@
+--release
+--output
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects
+--lib
+C:\android\platforms\android-33\android.jar
+C:\android\tools\..\extras\b4a_local\unpacked-b4ashared-63822300962000\dex_v1\b4ashared.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-measurement\21.2.0\unpacked-play-services-measurement-21.2.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\legacy\legacy-support-core-utils\1.0.0\unpacked-legacy-support-core-utils-1.0.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\core\core\1.9.0\unpacked-core-1.9.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\core\core-ktx\1.9.0\unpacked-core-ktx-1.9.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\annotation\annotation-experimental\1.3.0\unpacked-annotation-experimental-1.3.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-runtime\2.5.1\unpacked-lifecycle-runtime-2.5.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\versionedparcelable\versionedparcelable\1.1.1\unpacked-versionedparcelable-1.1.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\documentfile\documentfile\1.0.1\unpacked-documentfile-1.0.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\loader\loader\1.1.0\unpacked-loader-1.1.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-livedata-core\2.5.1\unpacked-lifecycle-livedata-core-2.5.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-viewmodel\2.5.1\unpacked-lifecycle-viewmodel-2.5.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-viewmodel-savedstate\2.5.1\unpacked-lifecycle-viewmodel-savedstate-2.5.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\savedstate\savedstate\1.2.0\unpacked-savedstate-1.2.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\localbroadcastmanager\localbroadcastmanager\1.1.0\unpacked-localbroadcastmanager-1.1.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\print\print\1.0.0\unpacked-print-1.0.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-ads-identifier\18.0.1\unpacked-play-services-ads-identifier-18.0.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-basement\18.1.0\unpacked-play-services-basement-18.1.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\fragment\fragment\1.5.4\unpacked-fragment-1.5.4\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\activity\activity\1.6.1\unpacked-activity-1.6.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\activity\activity-ktx\1.6.1\unpacked-activity-ktx-1.6.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-runtime-ktx\2.5.1\unpacked-lifecycle-runtime-ktx-2.5.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-viewmodel-ktx\2.5.1\unpacked-lifecycle-viewmodel-ktx-2.5.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\savedstate\savedstate-ktx\1.2.0\unpacked-savedstate-ktx-1.2.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\viewpager\viewpager\1.0.0\unpacked-viewpager-1.0.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\customview\customview\1.1.0\unpacked-customview-1.1.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-measurement-base\21.2.0\unpacked-play-services-measurement-base-21.2.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-measurement-impl\21.2.0\unpacked-play-services-measurement-impl-21.2.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-stats\17.0.3\unpacked-play-services-stats-17.0.3\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\firebase\firebase-common\20.2.0\unpacked-firebase-common-20.2.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-tasks\18.0.2\unpacked-play-services-tasks-18.0.2\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\firebase\firebase-components\17.0.1\unpacked-firebase-components-17.0.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-measurement-api\21.2.0\unpacked-play-services-measurement-api-21.2.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-measurement-sdk-api\21.2.0\unpacked-play-services-measurement-sdk-api-21.2.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\firebase\firebase-installations\17.1.0\unpacked-firebase-installations-17.1.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\firebase\firebase-installations-interop\17.1.0\unpacked-firebase-installations-interop-17.1.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\firebase\firebase-measurement-connector\20.0.0\unpacked-firebase-measurement-connector-20.0.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\firebase\firebase-auth\21.1.0\unpacked-firebase-auth-21.1.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\androidx\browser\browser\1.4.0\unpacked-browser-1.4.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-auth-api-phone\18.0.1\unpacked-play-services-auth-api-phone-18.0.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-base\18.1.0\unpacked-play-services-base-18.1.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-safetynet\18.0.1\unpacked-play-services-safetynet-18.0.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\firebase\firebase-auth-interop\20.0.0\unpacked-firebase-auth-interop-20.0.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-auth\20.3.0\unpacked-play-services-auth-20.3.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-auth-base\18.0.5\unpacked-play-services-auth-base-18.0.5\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\firebase\firebase-core\21.1.1\unpacked-firebase-core-21.1.1\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\firebase\firebase-analytics\21.2.0\unpacked-firebase-analytics-21.2.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-measurement-sdk\21.2.0\unpacked-play-services-measurement-sdk-21.2.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\firebase\firebase-messaging\23.1.0\unpacked-firebase-messaging-23.1.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\datatransport\transport-api\3.0.0\unpacked-transport-api-3.0.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\datatransport\transport-backend-cct\3.1.8\unpacked-transport-backend-cct-3.1.8\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\datatransport\transport-runtime\3.1.8\unpacked-transport-runtime-3.1.8\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\firebase\firebase-encoders-json\18.0.0\unpacked-firebase-encoders-json-18.0.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\android\gms\play-services-cloud-messaging\17.0.2\unpacked-play-services-cloud-messaging-17.0.2\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\firebase\firebase-datatransport\18.1.7\unpacked-firebase-datatransport-18.1.7\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\firebase\firebase-iid-interop\17.1.0\unpacked-firebase-iid-interop-17.1.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\firebase\firebase-storage\20.1.0\unpacked-firebase-storage-20.1.0\jars\classes.zip
+c:\android\tools\..\extras\b4a_remote\com\google\firebase\firebase-appcheck-interop\16.1.0\unpacked-firebase-appcheck-interop-16.1.0\jars\classes.zip
+C:\android\tools\..\extras\b4a_local\unpacked-camera-63822300962000\dex_v1\camera.zip
+C:\android\tools\..\extras\b4a_local\unpacked-core-63822300962000\dex_v1\core.zip
+C:\android\tools\..\extras\b4a_local\unpacked-firebaseanalytics-63822300962000\dex_v1\firebaseanalytics.zip
+C:\android\tools\..\extras\b4a_local\unpacked-firebaseauth-63822300962000\dex_v1\firebaseauth.zip
+C:\android\tools\..\extras\b4a_local\unpacked-firebasenotifications-63822300962000\dex_v1\firebasenotifications.zip
+C:\android\tools\..\extras\b4a_local\unpacked-firebasestorage-63822300962000\dex_v1\firebasestorage.zip
+C:\android\tools\..\extras\b4a_local\unpacked-javaobject-63822300962000\dex_v1\javaobject.zip
+C:\android\tools\..\extras\b4a_local\unpacked-network-63822300962000\dex_v1\network.zip
+C:\android\tools\..\extras\b4a_local\unpacked-phone-63822300962000\dex_v1\phone.zip
+C:\android\tools\..\extras\b4a_local\unpacked-randomaccessfile-63822300962000\dex_v1\randomaccessfile.zip
+C:\android\tools\..\extras\b4a_local\unpacked-reflection-63822300962000\dex_v1\reflection.zip
+C:\android\tools\..\extras\b4a_local\unpacked-runtimepermissions.androidx-63822300962000\dex_v1\runtimepermissions.zip
+C:\android\tools\..\extras\b4a_local\unpacked-xui-63822300964000\dex_v1\xui.zip
+C:\android\tools\..\extras\b4a_local\unpacked-remotelogger-63822300962000\dex_v1\remotelogger.zip
+c:\android\tools\..\extras\b4a_remote\androidx\collection\collection\1.2.0\collection-1.2.0.zip
+c:\android\tools\..\extras\b4a_remote\androidx\annotation\annotation\1.5.0\annotation-1.5.0.zip
+c:\android\tools\..\extras\b4a_remote\androidx\arch\core\core-common\2.1.0\core-common-2.1.0.zip
+c:\android\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-common\2.5.1\lifecycle-common-2.5.1.zip
+c:\android\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-common-java8\2.5.1\lifecycle-common-java8-2.5.1.zip
+C:\android\tools\..\extras\b4a_local\unpacked-com.google.errorprone-error_prone_annotations-63822300962000\dex_v1\com.google.errorprone-error_prone_annotations.zip
+c:\android\tools\..\extras\b4a_remote\com\google\firebase\firebase-annotations\16.1.0\firebase-annotations-16.1.0.zip
+C:\android\tools\..\extras\b4a_local\unpacked-com.google.guava-listenablefuture-63822300962000\dex_v1\com.google.guava-listenablefuture.zip
+c:\android\tools\..\extras\b4a_remote\com\google\firebase\firebase-encoders\17.0.0\firebase-encoders-17.0.0.zip
+c:\android\tools\..\extras\b4a_remote\com\google\firebase\firebase-encoders-proto\16.0.0\firebase-encoders-proto-16.0.0.zip
+C:\android\tools\..\extras\b4a_local\unpacked-javax.inject-javax.inject-63822300962000\dex_v1\javax.inject-javax.inject.zip
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\ktx\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\ktx\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\ktx\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\ktx\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\ktx\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\ktx\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\ktx\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\ktx\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\ktx\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\ktx\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\ktx\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\ktx\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\ktx\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\ktx\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\activity\ktx\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\annotation\experimental\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\annotation\experimental\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\annotation\experimental\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\annotation\experimental\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\annotation\experimental\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\annotation\experimental\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\annotation\experimental\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\annotation\experimental\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\annotation\experimental\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\annotation\experimental\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\annotation\experimental\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\annotation\experimental\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\annotation\experimental\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\annotation\experimental\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\annotation\experimental\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\browser\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\browser\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\browser\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\browser\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\browser\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\browser\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\browser\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\browser\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\browser\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\browser\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\browser\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\browser\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\browser\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\browser\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\browser\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\ktx\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\ktx\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\ktx\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\ktx\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\ktx\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\ktx\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\ktx\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\ktx\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\ktx\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\ktx\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\ktx\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\ktx\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\ktx\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\ktx\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\core\ktx\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\fragment\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\fragment\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\fragment\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\fragment\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\fragment\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\fragment\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\fragment\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\fragment\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\fragment\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\fragment\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\fragment\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\fragment\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\fragment\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\fragment\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\fragment\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\ktx\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\ktx\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\ktx\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\ktx\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\ktx\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\ktx\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\ktx\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\ktx\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\ktx\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\ktx\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\ktx\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\ktx\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\ktx\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\ktx\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\ktx\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\livedata\core\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\livedata\core\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\livedata\core\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\livedata\core\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\livedata\core\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\livedata\core\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\livedata\core\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\livedata\core\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\livedata\core\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\livedata\core\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\livedata\core\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\livedata\core\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\livedata\core\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\livedata\core\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\livedata\core\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\runtime\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\runtime\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\runtime\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\runtime\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\runtime\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\runtime\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\runtime\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\runtime\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\runtime\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\runtime\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\runtime\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\runtime\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\runtime\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\runtime\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\runtime\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\ktx\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\localbroadcastmanager\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\localbroadcastmanager\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\localbroadcastmanager\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\localbroadcastmanager\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\localbroadcastmanager\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\localbroadcastmanager\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\localbroadcastmanager\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\localbroadcastmanager\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\localbroadcastmanager\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\localbroadcastmanager\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\localbroadcastmanager\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\localbroadcastmanager\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\localbroadcastmanager\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\localbroadcastmanager\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\localbroadcastmanager\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\ktx\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\ktx\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\ktx\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\ktx\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\ktx\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\ktx\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\ktx\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\ktx\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\ktx\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\ktx\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\ktx\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\ktx\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\ktx\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\ktx\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\androidx\savedstate\ktx\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\auth\api\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\auth\api\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\auth\api\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\auth\api\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\auth\api\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\auth\api\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\auth\api\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\auth\api\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\auth\api\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\auth\api\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\auth\api\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\auth\api\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\auth\api\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\auth\api\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\auth\api\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\base\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\base\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\base\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\base\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\base\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\base\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\base\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\base\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\base\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\base\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\base\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\base\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\base\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\base\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\base\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\common\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\common\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\common\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\common\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\common\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\common\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\common\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\common\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\common\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\common\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\common\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\common\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\common\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\common\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\android\gms\common\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\messaging\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\messaging\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\messaging\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\messaging\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\messaging\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\messaging\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\messaging\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\messaging\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\messaging\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\messaging\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\messaging\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\messaging\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\messaging\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\messaging\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\com\google\firebase\messaging\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\cameraexclass$_camerainfoandid.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\cameraexclass$_camerasize.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\cameraexclass.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\client.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\firebasemessaging$1.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\firebasemessaging$2.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\firebasemessaging$firebasemessaging_BR.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\firebasemessaging$ResumableSub_CheckToken.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\firebasemessaging$ResumableSub_Service_Create.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\firebasemessaging$ResumableSub_Service_Start.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\firebasemessaging.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\main$1.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\main$B4AMenuItemsClickListener.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\main$HandleKeyDelayed.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\main$ResumableSub_Activity_Resume.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\main$ResumableSub_btnDownloadPublic_Click.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\main$ResumableSub_btnUploadAuth_Click.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\main$ResumableSub_Camera1_PictureTaken.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\main$ResumableSub_MyTimer_Tick.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\main$ResumeMessage.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\main$WaitForLayout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\main.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\Manifest$permission.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\Manifest.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\R$anim.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\R$animator.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\R$attr.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\R$color.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\R$dimen.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\R$drawable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\R$id.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\R$integer.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\R$layout.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\R$raw.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\R$string.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\R$style.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\R$styleable.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\R$xml.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\R.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\servermanager.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\starter$1.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\starter$2.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\starter$starter_BR.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\starter.dex
+C:\Users\paul joshua\Downloads\THESIS W13\Forum SensorLettuce to Firebase\Actual\Camera with Firebase v3\CCTV\Objects\dexed\thesishydroponicsv5\pushexample\designerscripts\LS_1.dex

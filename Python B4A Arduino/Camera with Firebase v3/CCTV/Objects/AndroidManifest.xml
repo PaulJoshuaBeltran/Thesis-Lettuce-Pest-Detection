@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="thesishydroponicsv5.pushexample"
+	android:versionCode="1"
+	android:versionName=""
+	android:installLocation="internalOnly">
+	
+	<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="33"/>
+	<supports-screens android:largeScreens="true" 
+	    android:normalScreens="true" 
+	    android:smallScreens="true" 
+	    android:anyDensity="true"/>
+	<permission
+	        android:name="thesishydroponicsv5.pushexample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+	        android:protectionLevel="signature" />
+	
+	    <uses-permission android:name="thesishydroponicsv5.pushexample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+	<uses-permission android:name="android.permission.CAMERA"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+	<uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+	<uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+	<uses-permission android:name="thesishydroponicsv5.pushexample.permission.C2D_MESSAGE"/>
+	<uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+	<application
+		android:icon="@drawable/icon"
+		android:label="Camera1 with Firebase v3"
+		android:theme="@style/DarkTheme"
+		android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+		
+		<activity android:name="com.google.android.gms.common.api.GoogleApiActivity"
+		  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+		  android:exported="false"/>
+		    <meta-data
+		  android:name="com.google.android.gms.version"
+		  android:value="@integer/google_play_services_version" />
+		<receiver
+		            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+		            android:enabled="true"
+		            android:exported="false" >
+		        </receiver>
+		
+		  <service
+		            android:name="com.google.android.gms.measurement.AppMeasurementService"
+		            android:enabled="true"
+		            android:exported="false" />
+					
+		<service
+		            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+		            android:enabled="true"
+		            android:exported="false"
+		            android:permission="android.permission.BIND_JOB_SERVICE" />
+		
+		 <service android:name="com.google.firebase.components.ComponentDiscoveryService"  android:directBootAware="true" android:exported="false"  >
+		            <meta-data
+		                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+		                android:value="com.google.firebase.components.ComponentRegistrar" />
+					 <meta-data
+		                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+		                android:value="com.google.firebase.components.ComponentRegistrar" />
+		             <meta-data
+		                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+		                android:value="com.google.firebase.components.ComponentRegistrar" />
+		             <meta-data
+		                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+		                android:value="com.google.firebase.components.ComponentRegistrar" />
+		            <meta-data 
+						android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+						android:value="com.google.firebase.components.ComponentRegistrar"/>
+		
+					<meta-data
+		   				 android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+		   				 android:value="com.google.firebase.components.ComponentRegistrar"/>
+		   			 <meta-data
+		                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+		                android:value="com.google.firebase.components.ComponentRegistrar" />
+		             <meta-data
+		                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+		                android:value="com.google.firebase.components.ComponentRegistrar" />
+		              <meta-data
+		                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+		                android:value="com.google.firebase.components.ComponentRegistrar" />
+		             <meta-data
+		                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+		                android:value="com.google.firebase.components.ComponentRegistrar"/>
+		            <meta-data
+		                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+		                android:value="com.google.firebase.components.ComponentRegistrar"/>
+		               
+		</service>
+		   <provider
+		     android:name="com.google.firebase.provider.FirebaseInitProvider"
+		            android:authorities="thesishydroponicsv5.pushexample.firebaseinitprovider"
+		            android:directBootAware="true"
+		            android:exported="false"
+		            android:initOrder="100" />
+		   <receiver
+		  android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+		  android:exported="true"
+		  android:permission="com.google.android.c2dm.permission.SEND" >
+		  <intent-filter>
+		  <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+		  <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+		  <category android:name="thesishydroponicsv5.pushexample" />
+		  </intent-filter>
+		  </receiver>
+		    <receiver
+		  android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+		  android:exported="false" />
+		
+		
+		  <service
+		  android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+		  android:exported="true">
+		  <intent-filter android:priority="-500">
+		  <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+		  </intent-filter>
+		  </service>
+		<activity
+		            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+		            android:excludeFromRecents="true"
+		            android:exported="true"
+		            android:launchMode="singleTask"
+		            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+		            <intent-filter>
+		                <action android:name="android.intent.action.VIEW" />
+		
+		                <category android:name="android.intent.category.DEFAULT" />
+		                <category android:name="android.intent.category.BROWSABLE" />
+		
+		                <data
+		                    android:host="firebase.auth"
+		                    android:path="/"
+		                    android:scheme="genericidp" />
+		            </intent-filter>
+		        </activity>
+		        <activity
+		            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+		            android:excludeFromRecents="true"
+		            android:exported="true"
+		            android:launchMode="singleTask"
+		            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+		            <intent-filter>
+		                <action android:name="android.intent.action.VIEW" />
+		
+		                <category android:name="android.intent.category.DEFAULT" />
+		                <category android:name="android.intent.category.BROWSABLE" />
+		
+		                <data
+		                    android:host="firebase.auth"
+		                    android:path="/"
+		                    android:scheme="recaptcha" />
+		            </intent-filter>
+		        </activity>
+		        
+		          <activity
+		            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+		            android:excludeFromRecents="true"
+		            android:exported="false"
+		            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+		
+		        <!--
+		            Service handling Google Sign-In user revocation. For apps that do not integrate with
+		            Google Sign-In, this service will never be started.
+		        -->
+		         <service
+		            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+		            android:exported="true"
+		            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+		            android:visibleToInstantApps="true" />
+		<service
+		            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+		            android:directBootAware="true"
+		            android:exported="false" >
+		            <intent-filter android:priority="-500" >
+		                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+		            </intent-filter>
+		        </service>
+		        
+		   <service android:name="anywheresoftware.b4a.objects.FirebaseNotificationsService"  android:exported="true">
+		     <intent-filter>
+		  		<action android:name="com.google.firebase.MESSAGING_EVENT"/>
+		     </intent-filter>
+		   </service>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".main"
+			android:label="Camera1 with Firebase v3"
+			android:screenOrientation="portrait"
+			android:exported="true">
+			<intent-filter>
+			   <action android:name="android.intent.action.MAIN" />
+			   <category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			
+		</activity>
+		<service
+			android:name=".starter"
+			android:exported="true">
+		</service>
+		<receiver
+			android:name=".starter$starter_BR"
+			android:exported="true">
+		</receiver>
+		<service
+			android:name=".firebasemessaging"
+			android:exported="true">
+		</service>
+		<receiver
+			android:name=".firebasemessaging$firebasemessaging_BR"
+			android:exported="true">
+		</receiver>
+	</application>
+</manifest>
