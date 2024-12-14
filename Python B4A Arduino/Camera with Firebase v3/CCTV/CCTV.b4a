@@ -1,0 +1,245 @@
+﻿Build1=Default,thesishydroponicsv5.pushexample
+File1=1.bal
+FileGroup1=Default Group
+Group=Default Group
+Library1=camera
+Library10=randomaccessfile
+Library11=reflection
+Library12=runtimepermissions
+Library13=xui
+Library2=core
+Library3=firebaseanalytics
+Library4=firebaseauth
+Library5=firebasenotifications
+Library6=firebasestorage
+Library7=javaobject
+Library8=network
+Library9=phone
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="33"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.DarkTheme)~\n~'End of default text.~\n~CreateResourceFromFile(Macro, FirebaseAnalytics.GooglePlayBase)~\n~CreateResourceFromFile(Macro, FirebaseAnalytics.Firebase)~\n~CreateResourceFromFile(Macro, FirebaseAnalytics.FirebaseAnalytics)~\n~CreateResourceFromFile(Macro, FirebaseAuth.FirebaseAuth)~\n~CreateResourceFromFile(Macro, FirebaseNotifications.FirebaseNotifications)
+Module1=CameraExClass
+Module2=Client
+Module3=FirebaseMessaging
+Module4=ServerManager
+Module5=Starter
+NumberOfFiles=1
+NumberOfLibraries=13
+NumberOfModules=5
+Version=12.5
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: Camera1 with Firebase v3
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: portrait
+	#CanInstallToExternalStorage: False
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: True
+#End Region
+#BridgeLogger: True
+
+#AdditionalJar: com.google.android.gms:play-services-base
+
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+	Private rp As RuntimePermissions
+	Dim tmr As Timer
+	Dim willTakePic As Boolean = False
+End Sub
+
+Sub Globals
+	Private Label1 As Label
+	Private Panel1 As Panel
+	Private txtName As EditText
+	Private camEx As CameraExClass
+	Private IntervalMs As Int = 150
+	Private lastPreviewSaved As Long
+	Private bucket As String = "gs://thesis-hydroponics-v5.appspot.com"
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	Activity.LoadLayout("1")
+	Log($"My ip: ${Starter.manager.MyIp}"$)
+	tmr.Initialize("MyTimer", 1000)
+	tmr.Enabled = True
+End Sub
+
+Sub Activity_Resume
+	rp.CheckAndRequest(rp.PERMISSION_CAMERA)
+	Wait For Activity_PermissionResult (Permission As String, Result As Boolean)
+	If Result Then
+		InitializeCamera
+		UpdateUI
+	End If
+End Sub
+
+Private Sub InitializeCamera
+	camEx.Initialize(Panel1, False, Me, "Camera1")
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+	If camEx.IsInitialized Then	camEx.Release
+End Sub
+
+Public Sub UpdateUI
+	Label1.Text = $"My ip: ${Starter.manager.MyIp}
+Number of clients: ${Starter.manager.NumberOfClients}"$
+End Sub
+
+Sub Camera1_Preview (PreviewPic() As Byte)
+	If DateTime.Now > lastPreviewSaved + IntervalMs Then
+		Dim jpeg() As Byte = camEx.PreviewImageToJpeg(PreviewPic, 70)
+		lastPreviewSaved = DateTime.Now
+		Starter.manager.NewBitmap(jpeg)
+	End If
+End Sub
+
+Sub Camera1_Ready (Success As Boolean)
+	If Success Then
+		camEx.SetJpegQuality(90)
+		camEx.SetContinuousAutoFocus
+'		For Each cs As CameraSize In camEx.GetSupportedPreviewSizes
+'			Log(cs.Width & " " & cs.Height)
+'		Next
+		camEx.SetPreviewSize(1440, 1080)
+		camEx.CommitParameters
+		camEx.StartPreview
+	Else
+		ToastMessageShow("Cannot open camera.", True)
+	End If
+End Sub
+
+Sub Camera1_PictureTaken (Data() As Byte)
+	camEx.StartPreview
+	' Handle the captured picture here.
+	' Data() contains the image data in bytes.
+
+	' Save the picture to a file
+	Dim out As OutputStream
+	'out = File.OpenOutput("/storage/emulated/0/DCIM/", txtName.text & ".jpg", False)
+	out = File.OpenOutput(File.DirInternal, txtName.text & ".jpg", False)
+	out.WriteBytes(Data, 0, Data.Length)
+	out.Close
+	
+	Try
+		Dim storage As FirebaseStorage = CreateFirebaseStorage
+		storage.UploadFile(File.DirInternal, txtName.text & ".jpg", "/public/android.png")
+		Wait For (storage) Storage_UploadCompleted (ServerPath As String, Success As Boolean)
+		ToastMessageShow($"UploadCompleted. Success = ${Success}"$, True)
+		If Success Then
+			ToastMessageShow("UPLOAD PIC SUCCESSFUL", True)
+			Log("UPLOAD PIC SUCCESSFUL")
+		End If
+		If Not(Success) Then
+			ToastMessageShow("UPLOAD PIC UN-SUCCESSFUL", True)
+			Log("UPLOAD PIC UN-SUCCESSFUL")
+		End If
+	Catch
+		ToastMessageShow("UPLOAD PIC UN-SUCCESSFUL", True)
+		Log("UPLOAD PIC UN-SUCCESSFUL")
+	End Try
+	ToastMessageShow("Picture saved", True)
+End Sub
+
+Sub takepic_Click
+	ToastMessageShow("Take Camera Picture", True)
+	camEx.TakePicture
+End Sub
+
+Sub btnDownloadPublic_Click
+	'You need to first upload a file from Firebase console.
+	Dim storage As FirebaseStorage = CreateFirebaseStorage
+	storage.DownloadFile("/public/Untitled.png", File.DirInternal, "out.png")
+	Wait For (storage) Storage_DownloadCompleted (ServerPath As String, Success As Boolean)
+	ToastMessageShow($"DownloadCompleted. Success = ${Success}"$, True)
+	If Not(Success) Then Log(LastException)
+End Sub
+
+Sub btnUploadAuth_Click
+	Dim storage As FirebaseStorage = CreateFirebaseStorage
+	storage.UploadFile(File.DirInternal, "out.png", "/public/Untitled1.png")
+	Wait For (storage) Storage_UploadCompleted (ServerPath As String, Success As Boolean)
+	ToastMessageShow($"UploadCompleted. Success = ${Success}"$, True)
+	If Not(Success) Then Log(LastException)
+End Sub
+
+Sub btnUploadUser_Click
+	Try
+		File.WriteString(File.DirInternal, "android.txt", "CONTENT 69")
+		ToastMessageShow(File.DirInternal & " || IT WORKED, HALLE-FUCKING-LUJAH", True)
+		ToastMessageShow(File.ReadString(File.DirInternal, "android.txt"), True)
+	Catch
+		ToastMessageShow("WORK FOR FUCK SAKE AGAIN", True)
+	End Try
+End Sub
+
+'By creating a new object each time, we can use the storage as a "sender filter" for the Wait For call.
+'This is a lightweight object.
+Sub CreateFirebaseStorage As FirebaseStorage
+	Dim storage As FirebaseStorage
+	storage.Initialize("storage", bucket)
+	Return storage
+End Sub
+
+Sub MyTimer_Tick
+	Dim availability As String
+	Dim storage As FirebaseStorage = CreateFirebaseStorage
+	
+	If willTakePic == True Then
+		Try
+			camEx.TakePicture
+			ToastMessageShow("TAKE PIC SUCCESSFUL", True)
+			Log("TAKE PIC SUCCESSFUL")
+			willTakePic = False
+			availability = "IS_AVAIL"
+		Catch
+			ToastMessageShow("TAKE PIC UN-SUCCESSFUL", True)
+			Log("TAKE PIC UN-SUCCESSFUL")
+			availability = "IS_UNAVAIL"
+		End Try
+		
+'		Write and upload txt file to indicate that it'll be busy (2)
+		File.writestring(File.dirinternal, "android.txt", availability)
+		storage.uploadfile(File.dirinternal, "android.txt", "/public/android.txt")
+		wait for (storage) storage_uploadcompleted (serverpath As String, success As Boolean)
+	End If
+'	'Download cam.txt file which contains the request status-es
+'	Dim storage As FirebaseStorage = CreateFirebaseStorage
+'	storage.DownloadFile("/public/android.txt", File.DirInternal, "android.txt")
+'	Wait For (storage) Storage_DownloadCompleted (ServerPath As String, Success As Boolean)
+'	If Not(Success) Then Log(LastException)
+'	
+'	'Read txt file for the request status-es
+'	Dim readString As String
+'	readString = File.ReadString(File.DirInternal, "android.txt")
+'	ToastMessageShow(readString, True)
+'	Log(readString)
+'	
+'	If readString = "1" Then 'requesting (1)
+'		'Write and upload txt file to indicate that it'll be busy (2)
+'		File.WriteString(File.DirInternal, "android.txt", "2")
+'		storage.UploadFile(File.DirInternal, "android.txt", "/public/android.txt")
+'		Wait For (storage) Storage_UploadCompleted (ServerPath As String, Success As Boolean)
+'		If Success Then
+'			ToastMessageShow("BUSY SUCCESSFUL", True)
+'			Log("BUSY SUCCESSFUL")
+'			' Take a picture
+'			Try
+'				camEx.TakePicture
+'				ToastMessageShow("TAKE PIC SUCCESSFUL", True)
+'				Log("TAKE PIC SUCCESSFUL")
+'			Catch
+'				ToastMessageShow("TAKE PIC UN-SUCCESSFUL", True)
+'				Log("TAKE PIC UN-SUCCESSFUL")
+'			End Try
+'		End If
+'		If Not(Success) Then
+'			ToastMessageShow("BUSY UN-SUCCESSFUL", True)
+'			Log("BUSY UN-SUCCESSFUL")
+'		End If
+'	End If
+End Sub

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "276257796909",
+    "firebase_url": "https://thesis-hydroponics-v5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "thesis-hydroponics-v5",
+    "storage_bucket": "thesis-hydroponics-v5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276257796909:android:d8cdbea212f93b45a2d9a4",
+        "android_client_info": {
+          "package_name": "thesishydroponicsv5.pushexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276257796909-sr4lhhmt45vh8gjla9rv73ea0ld0dh5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvoea5UgF7qco-xTJGwaL0YpoSB1W1xE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276257796909-sr4lhhmt45vh8gjla9rv73ea0ld0dh5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
