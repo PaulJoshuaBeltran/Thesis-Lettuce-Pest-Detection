@@ -233,7 +233,7 @@ function SensorsScreen(): React.JSX.Element {
   const reference = firebase
     .app()
     .database(
-      'https://my-first-project-4b80b-default-rtdb.asia-southeast1.firebasedatabase.app/',
+      // REDACTED,
     )
     .ref('/sensors');
 
@@ -328,24 +328,12 @@ function SensorsScreen(): React.JSX.Element {
 
   // Your secondary Firebase project credentials for Android...
   const androidCredentials = {
-    clientId: '276257796909-sr4lhhmt45vh8gjla9rv73ea0ld0dh5l.apps.googleusercontent.com',
-    appId: '1:276257796909:android:f1194b0f629f6eb2a2d9a4',
-    apiKey: 'AIzaSyCvoea5UgF7qco-xTJGwaL0YpoSB1W1xE0',
-    databaseURL: 'https://thesis-hydroponics-v5-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'thesis-hydroponics-v5.appspot.com',
-    messagingSenderId: '276257796909',
-    projectId: 'thesis-hydroponics-v5',
+    // REDACTED
   };
 
 // Your secondary Firebase project credentials for iOS...
   const iosCredentials = {
-    clientId: '276257796909-qf0vt8toafrdl23lona45tgs3d9cfrom.apps.googleusercontent.com',
-    appId: '1:276257796909:ios:32ef6994065c2843a2d9a4',
-    apiKey: 'AIzaSyDaeIhKjj2xtl7iPxkJ0JY-Bso8MAN9jgo',
-    databaseURL: 'https://thesis-hydroponics-v5-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'thesis-hydroponics-v5.appspot.com',
-    messagingSenderId: '276257796909',
-    projectId: 'thesis-hydroponics-v5',
+    // REDACTED
   };
 
 // Select the relevant credentials
@@ -874,24 +862,12 @@ function LettuceGrowthScreen(): React.JSX.Element {
 
   // Your secondary Firebase project credentials for Android...
   const androidCredentials = {
-    clientId: '276257796909-sr4lhhmt45vh8gjla9rv73ea0ld0dh5l.apps.googleusercontent.com',
-    appId: '1:276257796909:android:f1194b0f629f6eb2a2d9a4',
-    apiKey: 'AIzaSyCvoea5UgF7qco-xTJGwaL0YpoSB1W1xE0',
-    databaseURL: 'https://thesis-hydroponics-v5-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'thesis-hydroponics-v5.appspot.com',
-    messagingSenderId: '276257796909',
-    projectId: 'thesis-hydroponics-v5',
+    // REDACTED
   };
 
 // Your secondary Firebase project credentials for iOS...
   const iosCredentials = {
-    clientId: '276257796909-qf0vt8toafrdl23lona45tgs3d9cfrom.apps.googleusercontent.com',
-    appId: '1:276257796909:ios:32ef6994065c2843a2d9a4',
-    apiKey: 'AIzaSyDaeIhKjj2xtl7iPxkJ0JY-Bso8MAN9jgo',
-    databaseURL: 'https://thesis-hydroponics-v5-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'thesis-hydroponics-v5.appspot.com',
-    messagingSenderId: '276257796909',
-    projectId: 'thesis-hydroponics-v5',
+    // REDACTED
   };
 
 // Select the relevant credentials
